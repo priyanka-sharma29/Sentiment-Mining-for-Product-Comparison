@@ -1,8 +1,8 @@
 # Sentiment-Mining-for-Product-Comparison
 
 ## Twitter Sentiment Analysis: Alexa vs Google Home
-This analysis was performed to understand the wider public opinion for Alexa and Google Home and finally conclude the most preferred ones by Twitterati.
-Built Python MapReduce job on Hadoop cluster & performed sentiment analysis on tweets of voice-assistants.
+This analysis was performed to understand the wider public opinion for Alexa and Google Home and finally conclude the most preferred ones by Twitterati.  
+Built Python MapReduce job on Hadoop cluster & performed sentiment analysis on tweets of voice-assistants.  
 Used Knowledge-based approach & calculated a total sentiment score for each product to find which product has stronger positive presence.
 
 
@@ -10,7 +10,7 @@ Used Knowledge-based approach & calculated a total sentiment score for each prod
 A. Data Extraction:
 1. Extracted tweets using the open source twitter API in RStudio
 2. Utilized packages such as rtweet, ROAuth, stringr, tm
-3. Programmed to code such that the tweets contained “alexa”, “vs” and “google”.
+3. Programmed to code such that the tweets contained “alexa”, “vs” and “google”  
 A dataset was thus obtained that contained tweets and relevant parameters like ID of the tweet, time, date, favorited, etc.
 
 B. Data Preprocessing:
@@ -20,7 +20,7 @@ Cleaned the tweets by performing the following preprocessing steps:
 3. Removed junk values and replacement words like fffd which appear because of encoding differences
 4. Removed the retweet, punctuations, links, tabs, blank spaces at beginning, usernames
 5. Took a subset of Tweet ID and text for further operations
-6. Converted the dataset into txt file by tab delimited feature.
+6. Converted the dataset into txt file by tab delimited feature  
 After all these steps, the cleaned dataset was obtained which contained approximately 7500 tweets for both ‘alexa’ and ‘google’. Further narrowed it down as needed and found the tweets which contained the term ‘vs’ also.
 
 C. Sentiment Analysis:
