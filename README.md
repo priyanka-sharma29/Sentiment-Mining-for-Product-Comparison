@@ -1,7 +1,7 @@
 # Sentiment-Mining-for-Product-Comparison
+This analysis was performed to understand the wider public opinion for Alexa and Google Home and finally conclude the most preferred ones by Twitterati.  
 
 ## Twitter Sentiment Analysis: Alexa vs Google Home
-This analysis was performed to understand the wider public opinion for Alexa and Google Home and finally conclude the most preferred ones by Twitterati.  
 Built Python MapReduce job on Hadoop cluster & performed sentiment analysis on tweets of voice-assistants.  
 Used Knowledge-based approach & calculated a total sentiment score for each product to find which product has stronger positive presence.
 
