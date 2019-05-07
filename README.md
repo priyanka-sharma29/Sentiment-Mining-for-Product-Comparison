@@ -10,7 +10,7 @@ Used Knowledge-based approach & calculated a total sentiment score for each prod
 A. Data Extraction:
 1. Extracted tweets using the open source twitter API in RStudio
 2. Utilized packages such as rtweet, ROAuth, stringr, tm
-3. Programmed to code such that the tweets contained “alexa”, “vs” and “google”
+3. Programmed to code such that the tweets contained “alexa”, “vs” and “google”.
 A dataset was thus obtained that contained tweets and relevant parameters like ID of the tweet, time, date, favorited, etc.
 
 B. Data Preprocessing:
@@ -27,7 +27,7 @@ C. Sentiment Analysis:
 1. Loaded this data into Hadoop Distributed File System so that MapReduce could be utilized for conducting sentiment analysis. Fed a dictionary of positive and negative words to our program so that a Knowledge based approach could be used for sentiment analysis.
 
 2. Mapper Program - 
-The words in each tweet is compared with the bag of positive and negative words. The count of the classified words help to determine the polarity (A count of 0 indicated neutral sentiment while a value greater or lesser indicated positive and negative sentiment, respectively.) For each user, a score is obtained for the two keywords from his tweets.
+The words in each tweet is compared with the bag of positive and negative words. The count of the classified words help to determine the polarity (a count of 0 indicated neutral sentiment while a value greater or lesser indicated positive and negative sentiment, respectively.) For each user, a score is obtained for the two keywords from his tweets.
 
 3. Reducer Program - 
 Combined the score for our keywords ‘alexa’ and ‘google’ in the reducer.
